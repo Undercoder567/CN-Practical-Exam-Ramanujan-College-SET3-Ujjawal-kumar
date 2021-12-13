@@ -53,7 +53,7 @@ Go back n: Sender transmits all frames present in the window that occurs after t
 ![Ques1  1](https://user-images.githubusercontent.com/83595564/145756508-5228673d-a724-4f0d-bc41-ae7e2f63c5a9.jpg)
 ![Ques1  2](https://user-images.githubusercontent.com/83595564/145756515-1b45fa13-0e9c-4018-81e4-9a7d359ddd19.jpg)
 
------------------------End----------------------
+**----------------------- **                     **End**                                  **----------------------**
 
 **Ques 2:Simulate Cyclic Redundancy Check (CRC) error detection algorithm for noisy channel.**
 
