@@ -25,7 +25,9 @@ the Data Link Layer of OSI model. At data link layer data is in the form of fram
 
 buffer which has data frames that needs to be transmitted.
 
-Both sender and receiver agrees on some window size. If window size=w then after sending w frames sender waits for the acknowledgement (ack) of the first frame.
+Both sender and receiver agrees on some window size. If window size=w then after sending w frames sender waits for the 
+
+acknowledgement (ack) of the first frame.
 
 As soon as sender receives the acknowledgement of a frame it is replaced by the next frames to be transmitted by the sender. 
 
@@ -53,7 +55,7 @@ Go back n: Sender transmits all frames present in the window that occurs after t
 ![Ques1  1](https://user-images.githubusercontent.com/83595564/145756508-5228673d-a724-4f0d-bc41-ae7e2f63c5a9.jpg)
 ![Ques1  2](https://user-images.githubusercontent.com/83595564/145756515-1b45fa13-0e9c-4018-81e4-9a7d359ddd19.jpg)
 
-**----------------------- **                     **End**                                  **----------------------**
+**-----------------------------------------------------End------------------------_--_-------------------**
 
 **Ques 2:Simulate Cyclic Redundancy Check (CRC) error detection algorithm for noisy channel.**
 
