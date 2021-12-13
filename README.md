@@ -25,7 +25,7 @@ the Data Link Layer of OSI model. At data link layer data is in the form of fram
 
 buffer which has data frames that needs to be transmitted.
 
-Both sender and receiver agrees on some window size. If window size=w then after sending w frames sender waits for the 
+Both sender and receiver agrees on some window size. If window size=w then after sending w frames sender waits for the
 
 acknowledgement (ack) of the first frame.
 
