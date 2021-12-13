@@ -52,3 +52,30 @@ Go back n: Sender transmits all frames present in the window that occurs after t
 **Ques 2:Simulate Cyclic Redundancy Check (CRC) error detection algorithm for noisy channel.**
 
 **Explanation**
+
+**Cyclic Redundancy Check and Modulous-2 Division**
+
+CRC or Cyclic Redundancy Check is a method of detecting accidental changes/errors in the communication channel. 
+CRC uses Generator Polynomial which is available on both sender and receiver side.
+
+n : Number of bits in data to be sent 
+    from sender side.  
+k : Number of bits in the key obtained 
+    from generator polynomial.
+   
+   **Sender Side (Generation of Encoded Data from Data and Generator Polynomial (or Key)): **
+   
+  1.The binary data is first augmented by adding k-1 zeros in the end of the data
+
+  2.Use modulo-2 binary division to divide binary data by the key and store remainder of division.
+
+  3.Append the remainder at the end of the data to form the encoded data and send the same
+  
+ **Receiver Side (Check if there are errors introduced in transmission)**
+
+**Perform modulo-2 division again and if the remainder is 0, then there are no errors.**
+ for eg. we have sent data 10110 through sender end and the receiver received same data 10110 then their is no problem in transmission of data and the operation was successful. 
+ 
+ **Sample output**
+ ![Ques2](https://user-images.githubusercontent.com/83595564/145758142-2ef55c54-37d5-4ce5-b884-08bd46919e96.jpg)
+
